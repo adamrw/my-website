@@ -1,3 +1,7 @@
+body {
+	background: #7F8C8D;
+}
+
 .outer-container {
 	background: #7F8C8D;
 	width: 100%;
@@ -13,6 +17,7 @@
 	font-size: 12px;
 	padding-left: 10px;
 	padding-top: 140px;
+	border-bottom: 10px solid #27AE60;
 
 	
 }
@@ -20,14 +25,15 @@
 
 .inner-container {
 	font-family: sans-serif;
-
 	background: #2ECC71;
 	width: 500px;
 	height: 200px;
 	margin-top: 10px;
+	
+	/*border-bottom-color: #27AE60;*/
 	/*position: absolute;*/
 
-}
+} 
 
 
 .navbar {
@@ -43,12 +49,6 @@
 }
 
 
-.grline {
-	background: #27AE60;
-	width: 500px;
-	height: 5px;
-}
-
 .navbar li {
 	float: right;
 	text-decoration: none;
@@ -56,22 +56,82 @@
 	padding-right: 20px;
 
 }
-
-
-.article {
+article h2 {
+	margin-left: 10px;
+}
+article {
 	background: white;
-	font-size: 10px;
+	font-size: 13px;
 	height: 240px;
-	width: 500px;
+	overflow: hidden;
 
 }
 
-.atitle {
-	color: black;
-	/*padding-left: 10px;*/
-	/*padding-top: 30px;*/
+article span {
+	color: #DD932D;
+}
+
+article p {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+
+}
+
+.section1 {
+	height: 380px;
+	background-color: white;
+	overflow: hidden;
+}
+
+
+.section1 h5 {
+	margin-left: 20px;
+	margin-bottom: 1px;
+
+}
+
+
+.section1 p {
+	font-size: 13px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 10px;
+
 	
 }
+
+
+.section1 hr {
+	width: 90%;
+	color: #BDC3C7;
+
+}
+
+
+.button {
+	background: #3498DB;
+	color: white;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+
+.table1 {
+	font-size: 13px;
+}
+
+
+.Table1 th {
+	background: #BDC3C7;
+}
+
+
+
+
 
 
 
