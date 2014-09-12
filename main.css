@@ -120,13 +120,18 @@ article p {
 }
 
 
-.table1 {
+.table1 tr, th, td {
 	font-size: 13px;
+	border: 1px solid #BDC3C7;
+	border-collapse: collapse;
+
 }
 
 
-.Table1 th {
+.table1 th {
 	background: #BDC3C7;
+	text-align: left;
+	padding-left: 5px;
 }
 
 
